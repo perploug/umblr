@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>umblr</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/umblr.css" rel="stylesheet" />
+
+</head>
+    <body>
+
+        <div class="container">
+            
+            <header class="jumbotron subhead">
+                <div class="row">
+                    <div>
+                        <h1>The magnificient machine</h1>
+                        <p class="lead">A markdown, git, umbraco stream</p>
+                    </div>
+                </div>
+            </header>
+
+            @RenderBody()
+
+        </div>
+
+    </body>
+</html>
